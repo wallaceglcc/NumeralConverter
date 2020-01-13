@@ -23,11 +23,19 @@ namespace RomanNumeralConverterWorking
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnConvertNumeral { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblInstructions { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtDigit { get; set; }
+
+        [Action ("BtnConvertNumber_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void BtnConvertNumber_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
@@ -39,6 +47,11 @@ namespace RomanNumeralConverterWorking
             if (btnConvertNumber != null) {
                 btnConvertNumber.Dispose ();
                 btnConvertNumber = null;
+            }
+
+            if (btnConvertNumeral != null) {
+                btnConvertNumeral.Dispose ();
+                btnConvertNumeral = null;
             }
 
             if (lblInstructions != null) {

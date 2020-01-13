@@ -28,5 +28,38 @@ namespace RomanNumeralConverterWorking
             }
             else return "NN"; //Not a number
         }
+
+        public static string ConvertNumeralToNumber(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                return ""; //Field is empty/whitespace
+            }
+            foreach(string numeral in numerals)
+            {
+                if(text == numeral)
+                {
+                    return (numerals.IndexOf(numeral) + 1).ToString(); //convert to digit
+                }
+            }
+            return "NR"; //If it isn't a numeral in the list
+        }
+
+        public static string ConversionResponse(string conversionResult)
+        {
+            switch (conversionResult) //Interpret the result of the conversion
+            {
+                case "":
+                    return "Please enter a value";
+                case "NN":
+                    return "Number must be 1-10";
+                case "OR":
+                    return "Entry must be a number 1-10";
+                case "NR":
+                    return "Entry must be a Roman Numeral I-X";
+                default:
+                    return conversionResult;
+            }
+        }
     }
 }
