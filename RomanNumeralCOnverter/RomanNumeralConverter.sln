@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhone.ActiveCfg = Release|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhone.Build.0 = Release|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhone.Deploy.0 = Release|iPhone
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{55B2AAD8-E250-4336-B93E-4C6E68CC85A8}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C178A94-8CD5-460B-8EAC-9B79EC69FAC6}
+	EndGlobalSection
+EndGlobal
