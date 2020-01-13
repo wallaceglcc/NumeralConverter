@@ -216,11 +216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralConverter/RomanNumeralConverter.csproj",
+      "projectUniqueName": "/Users/student/Documents/GitHub/NumeralConverter/RomanNumeralCOnverter/RomanNumeralConverter/RomanNumeralConverter.csproj",
       "projectName": "RomanNumeralConverter",
-      "projectPath": "/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralConverter/RomanNumeralConverter.csproj",
+      "projectPath": "/Users/student/Documents/GitHub/NumeralConverter/RomanNumeralCOnverter/RomanNumeralConverter/RomanNumeralConverter.csproj",
       "packagesPath": "/Users/student/.nuget/packages/",
-      "outputPath": "/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralConverter/obj",
+      "outputPath": "/Users/student/Documents/GitHub/NumeralConverter/RomanNumeralCOnverter/RomanNumeralConverter/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/student/.config/NuGet/NuGet.Config"
