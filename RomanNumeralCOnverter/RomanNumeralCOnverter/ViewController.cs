@@ -28,20 +28,20 @@ namespace RomanNumeralConverter
                     {
                         if (convertedNumeral != "OR") //Check if it was 1-10
                         {
-                            txtDigit.text = convertedNumeral; //Set text field to converted numeral
+                            txtDigit.Text = convertedNumeral; //Set text field to converted numeral
                         }
-                        else txtDigit.text = "Number must be 1-10";
+                        else txtDigit.Text = "Number must be 1-10";
                     }
-                    else txtDigit.text = "Entry must be a number 1-10";
+                    else txtDigit.Text = "Entry must be a number 1-10";
                 }
-                else txtDigit.text = "Enter a number 1-10";
-            }
+                else txtDigit.Text = "Enter a number 1-10";
+            };
 
             //Quick clear the text field
             btnClear.TouchUpInside += (object sender, EventArgs e) =>
             {
-                txtDigit.text = "";
-            }
+                txtDigit.Text = "";
+            };
         }
 
         public override void DidReceiveMemoryWarning ()

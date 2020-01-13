@@ -1,0 +1,8 @@
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/RomanNumeralConverter.csprojResolveAssemblyReference.cache
+/Users/student/Desktop/NumeralConverter-master/RomanNumeralCOnverter/RomanNumeralCOnverter/obj/iPhoneSimulator/Debug/RomanNumeralConverter.csproj.CoreCompileInputs.cache
