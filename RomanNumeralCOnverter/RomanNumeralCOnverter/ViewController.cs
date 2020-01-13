@@ -18,7 +18,7 @@ namespace RomanNumeralConverter
 
             btnConvertNumber.TouchUpInside += (object sender, EventArgs e) =>
             {
-                convertedNumeral = NumberConverter.ConvertNumberToNumeral(txtDigit); //Convert whatever is in the text field
+                convertedNumeral = NumberConverter.ConvertNumberToNumeral(txtDigit.Text); //Convert whatever is in the text field
 
                 txtDigit.ResignFirstResponder(); //Get rid of the keyboard
 
