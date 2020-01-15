@@ -45,6 +45,11 @@
                                 <rect key="frame" x="92" y="406" width="230" height="30"/>
                                 <state key="normal" title="Convert Roman Numeral to Digit"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="818" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="20" y="194" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.84313725490196079" green="0" blue="0" alpha="1"/>
+                            </label>
                         </subviews>
                     </view>
                     <connections>
@@ -53,6 +58,7 @@
                         <outlet property="btnClear" destination="199" id="name-outlet-199"/>
                         <outlet property="lblInstructions" destination="403" id="name-outlet-403"/>
                         <outlet property="btnConvertNumeral" destination="610" id="name-outlet-610"/>
+                        <outlet property="lblError" destination="818" id="name-outlet-818"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

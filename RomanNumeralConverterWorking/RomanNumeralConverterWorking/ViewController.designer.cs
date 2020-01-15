@@ -27,6 +27,10 @@ namespace RomanNumeralConverterWorking
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblError { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblInstructions { get; set; }
 
         [Outlet]
@@ -52,6 +56,11 @@ namespace RomanNumeralConverterWorking
             if (btnConvertNumeral != null) {
                 btnConvertNumeral.Dispose ();
                 btnConvertNumeral = null;
+            }
+
+            if (lblError != null) {
+                lblError.Dispose ();
+                lblError = null;
             }
 
             if (lblInstructions != null) {
